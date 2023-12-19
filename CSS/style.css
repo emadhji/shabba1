@@ -1,0 +1,233 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+}
+
+nav {
+  background-color: #444;
+  padding: 0.5em;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  margin: 0 1em;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.container{
+    text-align: center;
+}
+.user_details .input_box input {
+width: 220px;
+height: 45px;
+border-radius: 5px;
+padding: 0rem 0.5rem;
+font-size: 16px;
+font-weight: 500;
+background-color: #f5f5f5;
+font-family: sans-serif;
+
+}
+
+
+
+
+.btns {
+padding: 1rem 25px;
+display: flex;
+justify-content: center;
+
+gap: 1.6rem;
+position: relative;
+}
+
+.btns hr {
+
+border: none;
+border-top: 1px solid #ffffff;
+position: absolute;
+top: 0;
+left: 50%;
+
+width: 80%;
+height: 10px;
+}
+
+.btns .btn-submit {
+padding: 0.75rem 2.6rem;
+font-size: 14px;
+
+font-weight: 500;
+color: rgb(14, 13, 13);
+border: 1px solid #444;
+background: #f5f5f5;
+
+border-radius: 0.25rem;
+
+cursor: pointer;
+transition: transform 0.9s;
+margin-bottom: 20px;
+
+}
+
+.btns .btn-submit:hover {
+background: #000000;
+position: relative;
+color: #ffffff;
+transform: scale(1.04);
+}
+
+.btns .btn-rest {
+padding: 0.75rem 2.6rem;
+font-size: 14px;
+background-color: #ffffff;
+
+font-weight: 500;
+color: #444;
+
+border: none;
+border-radius: 0.25rem;
+
+cursor: pointer;
+position: relative;
+
+border: 1px solid #444;
+transition: transform 0.9s;
+padding-left: 10px;
+padding-top: -5px;
+height: 45px;
+
+}
+
+.btns .btn-rest:hover {
+transform: scale(1.04);
+background-color: #111;
+color: #ffffff;
+}
+label{
+color: rgb(0, 0, 0);
+}
+
+
+.container .title {
+padding: 25px 25px;
+position: relative;
+}
+#tit{
+color: rgb(0, 0, 0);
+}
+
+.container .title h1 {
+font-size: 24px;
+font-weight: 500;
+position: relative;
+}
+
+.user_details {
+display: grid;
+grid-template-columns: auto auto ;
+gap: 2rem;
+padding: 25px;
+}
+
+.user_details .input_box {
+width: 100%;
+display: flex;
+flex-direction: column;
+gap: 0.5rem;
+}
+
+.user_details .input_box label {
+font-weight: 500;
+font-size: 14px;
+display: block;
+padding: 0rem 0.5rem;
+
+}
+
+.user_details .input_box input {
+width: 220px;
+height: 45px;
+border-radius: 5px;
+padding: 0rem 0.5rem;
+font-size: 16px;
+font-weight: 500;
+background-color: #f5f5f5;
+font-family: sans-serif;
+
+}
+
+.btn-menu {
+display: block;
+height: 40px;
+margin: auto;
+border: none;
+margin-top: 30px;
+background: #a1cca5;
+color: #415d43;
+padding: 10px 20px;
+border-radius: 8px;
+cursor: pointer;
+transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-menu:hover {
+background-color: #415d43;
+color: #a1cca5;
+}
+form {
+max-width: 400px;
+margin: auto;
+}
+
+form input:focus {
+outline: none;
+border: 2px solid #a1cca5;
+}
+.text-tit{
+text-align: center;
+}
+#contact{
+margin-bottom: 40px;
+}
